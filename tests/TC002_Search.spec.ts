@@ -2,6 +2,7 @@ import { test } from "../fixtures/test-fixtures";
 import { LoginPage } from "../pages/LoginPage";
 import { ExcelReader } from "../utils/ExcelReader";
 import { SearchHotelPage } from "../pages/SearchHotelPage";
+import { logger } from "../utils/Logger";
 
 
 const data = ExcelReader.getLoginData();
@@ -9,15 +10,15 @@ const data = ExcelReader.getLoginData();
 
 test("Search Hotel Test", async ({ page }) => {
 
-
+  logger.info("Application opened");
     const loginPage = new LoginPage(page);
+   
 
     const searchHotelPage = new SearchHotelPage(page);
 
 
     // Open Application
 
-    await page.goto("https://adactinhotelapp.com");
 
 
     // Login
@@ -27,14 +28,21 @@ test("Search Hotel Test", async ({ page }) => {
         data[0].password
     );
 
+     logger.info("Application login successfull");
+
 
     await loginPage.verifyLoginSuccess();
 
 
+    logger.info("verify username");
     await loginPage.verifyLoggedInUsername(
         data[0].username
     );
 
+    
+    logger.info("verify search hotel page ... ");
+
+  
 
     // Search Hotel Details
 
@@ -73,7 +81,11 @@ test("Search Hotel Test", async ({ page }) => {
 
     // Verify Select Hotel Page
 
+      logger.info("Hotel search completed");
+
     await searchHotelPage.verifySelectHotelPage();
+
+    logger.info("hotel select page is dsiplayed ... ")
 
 
 });

@@ -1,0 +1,74 @@
+[2026-07-16T19:30:55.566] [INFO] default - ========== Test Started ==========
+[2026-07-16T19:30:55.569] [INFO] default - Test Name : Adactin Login Test
+[2026-07-16T19:31:00.558] [INFO] default - Application URL opened
+[2026-07-16T19:31:00.562] [INFO] default - ===== Test Started =====
+[2026-07-16T19:31:00.563] [INFO] default - Application opened
+[2026-07-16T19:31:02.099] [INFO] default - Login completed successfully
+[2026-07-16T19:31:03.628] [INFO] default - Test Passed : Adactin Login Test
+[2026-07-16T19:31:03.628] [INFO] default - ========== Test Completed ==========
+[2026-07-16T19:31:05.237] [INFO] default - ========== Test Started ==========
+[2026-07-16T19:31:05.240] [INFO] default - Test Name : Search Hotel Test
+[2026-07-16T19:31:10.542] [INFO] default - Application URL opened
+[2026-07-16T19:31:10.545] [INFO] default - Application opened
+[2026-07-16T19:31:11.452] [INFO] default - Application login successfull
+[2026-07-16T19:31:11.492] [INFO] default - verify username
+[2026-07-16T19:31:11.812] [INFO] default - verify search hotel page ... 
+[2026-07-16T19:31:12.171] [INFO] default - Hotel search completed
+[2026-07-16T19:31:12.732] [INFO] default - hotel select page is dsiplayed ... 
+[2026-07-16T19:31:12.734] [INFO] default - Test Passed : Search Hotel Test
+[2026-07-16T19:31:12.734] [INFO] default - ========== Test Completed ==========
+[2026-07-16T19:31:14.109] [INFO] default - ========== Test Started ==========
+[2026-07-16T19:31:14.109] [INFO] default - Test Name : Search Hotel Test
+[2026-07-16T19:31:23.124] [INFO] default - Application URL opened
+[2026-07-16T19:31:23.126] [INFO] default - ==== Select Hotel Test =======
+[2026-07-16T19:31:27.380] [INFO] default - Click on continue button
+[2026-07-16T19:31:27.429] [INFO] default - verify book hotel page
+[2026-07-16T19:31:27.431] [INFO] default - Test Passed : Search Hotel Test
+[2026-07-16T19:31:27.431] [INFO] default - ========== Test Completed ==========
+[2026-07-16T19:31:28.668] [INFO] default - ========== Test Started ==========
+[2026-07-16T19:31:28.668] [INFO] default - Test Name : Search Hotel Test
+[2026-07-16T19:31:43.869] [INFO] default - Application URL opened
+[2026-07-16T19:31:43.871] [INFO] default - ===== Book hotel page ============
+[2026-07-16T19:31:47.725] [INFO] default - ===== Book hotel page opened ============
+[2026-07-16T19:31:47.725] [INFO] default - ===== Book hotel page enter details  ============
+[2026-07-16T19:31:48.222] [INFO] default - ===== Book hotel page click on book now button ============
+[2026-07-16T19:31:48.316] [INFO] default - Test Passed : Search Hotel Test
+[2026-07-16T19:31:48.726] [INFO] default - Failure screenshot attached
+[2026-07-16T19:31:48.726] [INFO] default - ========== Test Completed ==========
+[2026-07-16T19:33:09.978] [INFO] default - ========== Test Started ==========
+[2026-07-16T19:33:09.980] [INFO] default - Test Name : Adactin Login Test
+[2026-07-16T19:33:21.003] [INFO] default - Application URL opened
+[2026-07-16T19:33:21.004] [INFO] default - ===== Test Started =====
+[2026-07-16T19:33:21.006] [INFO] default - Application opened
+[2026-07-16T19:33:22.026] [INFO] default - Login completed successfully
+[2026-07-16T19:33:22.376] [INFO] default - Test Passed : Adactin Login Test
+[2026-07-16T19:33:22.377] [INFO] default - ========== Test Completed ==========
+[2026-07-16T19:33:24.147] [INFO] default - ========== Test Started ==========
+[2026-07-16T19:33:24.148] [INFO] default - Test Name : Search Hotel Test
+[2026-07-16T19:33:34.165] [INFO] default - Application URL opened
+[2026-07-16T19:33:34.167] [INFO] default - Application opened
+[2026-07-16T19:33:35.823] [INFO] default - Application login successfull
+[2026-07-16T19:33:35.865] [INFO] default - verify username
+[2026-07-16T19:33:36.131] [INFO] default - verify search hotel page ... 
+[2026-07-16T19:33:36.439] [INFO] default - Hotel search completed
+[2026-07-16T19:33:37.000] [INFO] default - hotel select page is dsiplayed ... 
+[2026-07-16T19:33:37.002] [INFO] default - Test Passed : Search Hotel Test
+[2026-07-16T19:33:37.002] [INFO] default - ========== Test Completed ==========
+[2026-07-16T19:33:38.284] [INFO] default - ========== Test Started ==========
+[2026-07-16T19:33:38.284] [INFO] default - Test Name : Search Hotel Test
+[2026-07-16T19:33:49.529] [INFO] default - Application URL opened
+[2026-07-16T19:33:49.531] [INFO] default - ==== Select Hotel Test =======
+[2026-07-16T19:33:54.893] [INFO] default - Click on continue button
+[2026-07-16T19:33:54.946] [INFO] default - verify book hotel page
+[2026-07-16T19:33:54.950] [INFO] default - Test Passed : Search Hotel Test
+[2026-07-16T19:33:54.950] [INFO] default - ========== Test Completed ==========
+[2026-07-16T19:33:56.263] [INFO] default - ========== Test Started ==========
+[2026-07-16T19:33:56.263] [INFO] default - Test Name : Search Hotel Test
+[2026-07-16T19:34:06.858] [INFO] default - Application URL opened
+[2026-07-16T19:34:06.859] [INFO] default - ===== Book hotel page ============
+[2026-07-16T19:34:10.874] [INFO] default - ===== Book hotel page opened ============
+[2026-07-16T19:34:10.874] [INFO] default - ===== Book hotel page enter details  ============
+[2026-07-16T19:34:11.501] [INFO] default - ===== Book hotel page click on book now button ============
+[2026-07-16T19:34:11.502] [INFO] default - ===== Book hotel page  verify success ============
+[2026-07-16T19:34:11.504] [INFO] default - Test Passed : Search Hotel Test
+[2026-07-16T19:34:11.504] [INFO] default - ========== Test Completed ==========

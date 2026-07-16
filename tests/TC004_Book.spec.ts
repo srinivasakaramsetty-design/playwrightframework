@@ -4,6 +4,8 @@ import { ExcelReader } from "../utils/ExcelReader";
 import { SearchHotelPage } from "../pages/SearchHotelPage";
 import { SelectHotelPage } from "../pages/SelectHotelPage";
 import { bookpage } from "../pages/bookpage";
+import { logger } from "../utils/Logger";
+
 
 
 const data = ExcelReader.getLoginData();
@@ -11,6 +13,7 @@ const data = ExcelReader.getLoginData();
 
 test("Search Hotel Test", async ({ page }) => {
 
+        logger.info("===== Book hotel page ============");
 
     const loginPage = new LoginPage(page);
 
@@ -18,9 +21,7 @@ test("Search Hotel Test", async ({ page }) => {
 
 
 
-    // Open Application
-
-    await page.goto("https://adactinhotelapp.com");
+    // Open Applicatio
 
 
 
@@ -101,8 +102,10 @@ test("Search Hotel Test", async ({ page }) => {
 
 
   // Book Hotel Page
-
+logger.info("===== Book hotel page opened ============");
 const bookHotelPage = new bookpage(page);
+
+logger.info("===== Book hotel page enter details  ============");
 
 
 await bookHotelPage.enterFirstName(
@@ -149,10 +152,14 @@ await bookHotelPage.enterCVV(
 
 await bookHotelPage.clickBookNow();
 
+logger.info("===== Book hotel page click on book now button ============");
+
 
 // Verify Booking Confirmation
 
 await bookHotelPage.verifyBookingSuccess();
+
+logger.info("===== Book hotel page  verify success ============");
 
 
 });

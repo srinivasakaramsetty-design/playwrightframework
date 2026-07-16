@@ -3,6 +3,7 @@ import { LoginPage } from "../pages/LoginPage";
 import { ExcelReader } from "../utils/ExcelReader";
 import { SearchHotelPage } from "../pages/SearchHotelPage";
 import { SelectHotelPage } from "../pages/SelectHotelPage";
+import { logger } from "../utils/Logger";
 
 const data = ExcelReader.getLoginData();
 
@@ -10,14 +11,13 @@ const data = ExcelReader.getLoginData();
 test("Search Hotel Test", async ({ page }) => {
 
 
+    logger.info("==== Select Hotel Test =======");
     const loginPage = new LoginPage(page);
 
     const searchHotelPage = new SearchHotelPage(page);
 
 
     // Open Application
-
-    await page.goto("https://adactinhotelapp.com");
 
 
     // Login
@@ -85,8 +85,12 @@ test("Search Hotel Test", async ({ page }) => {
 // Click Continue
    await selectHotelPage.clickContinue();
 
+   logger.info("Click on continue button");
+
 // Verify Book Hotel page
    await selectHotelPage.verifyBookHotelPage();
+
+   logger.info("verify book hotel page");
 
 
 });
