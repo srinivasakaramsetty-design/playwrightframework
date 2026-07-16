@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5693","Adactin Login Test","","2026-07-16","passed","2026-07-16","","example.spec.ts","",""
+"","8964","Adactin Login Test","","2026-07-16","passed","2026-07-16","","login.spec.ts","",""
+"","10878","Search Hotel Test","","2026-07-16","passed","2026-07-16","","search.spec.ts","",""

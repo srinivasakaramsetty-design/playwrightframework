@@ -1,0 +1,32 @@
+{
+  "name": "adactin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "login": "playwright test tests/login.spec.ts",
+    "search": "playwright test tests/search.spec.ts",
+    "smoke": "playwright test tests/login.spec.ts tests/search.spec.ts",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "exceljs": "^3.4.0",
+    "properties-reader": "^3.0.1",
+    "winston": "^3.19.0",
+    "xlsx": "^0.18.5"
+  }
+}
