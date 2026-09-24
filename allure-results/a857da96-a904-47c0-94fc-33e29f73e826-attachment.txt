@@ -1,0 +1,23 @@
+GET: {
+  id: 10,
+  name: 'Clementina DuBuque',
+  username: 'Moriah.Stanton',
+  email: 'Rey.Padberg@karina.biz',
+  address: {
+    street: 'Kattie Turnpike',
+    suite: 'Suite 198',
+    city: 'Lebsackbury',
+    zipcode: '31428-2261',
+    geo: { lat: '-38.2386', lng: '57.2232' }
+  },
+  phone: '024-648-3804',
+  website: 'ambrose.net',
+  company: {
+    name: 'Hoeger LLC',
+    catchPhrase: 'Centralized empowering task-force',
+    bs: 'target end-to-end models'
+  }
+}
+POST: { title: 'foo', body: 'bar', userId: 1, id: 101 }
+PUT: { id: 1, title: 'foot', body: 'ball', userId: 1 }
+DELETE Status: 200

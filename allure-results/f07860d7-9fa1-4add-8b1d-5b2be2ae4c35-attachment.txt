@@ -1,9 +1,0 @@
-[2026-07-16T19:33:09.978] [INFO] default - ========== Test Started ==========
-[2026-07-16T19:33:09.980] [INFO] default - Test Name : Adactin Login Test
-[2026-07-16T19:33:21.003] [INFO] default - Application URL opened
-[2026-07-16T19:33:21.004] [INFO] default - ===== Test Started =====
-[2026-07-16T19:33:21.006] [INFO] default - Application opened
-[2026-07-16T19:33:22.026] [INFO] default - Login completed successfully
-Logged in username : Hello srinivas1234!
-[2026-07-16T19:33:22.376] [INFO] default - Test Passed : Adactin Login Test
-[2026-07-16T19:33:22.377] [INFO] default - ========== Test Completed ==========

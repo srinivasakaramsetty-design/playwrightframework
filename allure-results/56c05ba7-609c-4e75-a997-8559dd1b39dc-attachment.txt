@@ -1,9 +1,0 @@
-[2026-07-16T19:33:38.284] [INFO] default - ========== Test Started ==========
-[2026-07-16T19:33:38.284] [INFO] default - Test Name : Search Hotel Test
-[2026-07-16T19:33:49.529] [INFO] default - Application URL opened
-[2026-07-16T19:33:49.531] [INFO] default - ==== Select Hotel Test =======
-Logged in username : Hello srinivas1234!
-[2026-07-16T19:33:54.893] [INFO] default - Click on continue button
-[2026-07-16T19:33:54.946] [INFO] default - verify book hotel page
-[2026-07-16T19:33:54.950] [INFO] default - Test Passed : Search Hotel Test
-[2026-07-16T19:33:54.950] [INFO] default - ========== Test Completed ==========
